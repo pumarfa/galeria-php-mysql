@@ -1,0 +1,17 @@
+# Hidden files
+*.DS_Store
+*Thumbs.db
+
+# editor files
+.idea*
+
+# composer vendor files
+vendor/
+
+# Imagenes en pruebas
+www/fotos/*.jpg
+www/fotos/*.png
+www/fotos/*.gif
+www/images/*.jpg
+www/images/*.png
+www/images/*.gif
