@@ -1,0 +1,52 @@
+body{ 
+    background: #ddd; 
+    font: normal 14px/18px Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0 0 10px 0;
+}
+
+h1 {
+    font: bold italic 30px/33px Georgia;
+}
+
+#principal {
+    background: white;
+    border: 1px solid #111;
+    padding: 10px 20px;
+    width: 600px;
+    margin: auto;
+}
+
+#listado > div {
+    background: #eeeeee;
+    padding: 10px;
+    box-shadow: 0 0 4px black;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#listado > div img {
+    height: 100px;
+    float: left;
+}
+
+#listado > div img+p{
+    margin-left: 120px;
+}
+
+#show_galeria > div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 4px;
+    width: 200px;
+}
+
+#show_galeria > div img {
+    height: 200px;
+}
