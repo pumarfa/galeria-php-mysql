@@ -8,6 +8,8 @@
 # composer vendor files
 vendor/
 
+# Token para actualizar GitHub
+TokenGitHub.txt
 # Imagenes en pruebas
 www/fotos/*.jpg
 www/fotos/*.png
