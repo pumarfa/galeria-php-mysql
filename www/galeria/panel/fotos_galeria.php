@@ -42,7 +42,7 @@ $filas = mysqli_query($cnx, $consulta);
 		<header id="header">
 			<div class="content">
 				<h1><a href="#">Galeria 50 AÑOS</a></h1>
-        <p>Una galeria de fotos donde se recopila la hisoria de la Universidad Nacional de Misiones <a href="http://www.unam.edu.ar">UNaM</a></p>
+        <p>Una galeria de fotos donde se recopila la historia de la Universidad Nacional de Misiones <a href="http://www.unam.edu.ar">UNaM</a></p>
 				<ul class="actions">
 					<li><a href="#one" class="button icon solid fa-chevron-down scrolly">Galerias</a></li>
 				</ul>
