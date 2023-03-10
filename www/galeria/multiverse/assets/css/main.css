@@ -488,7 +488,6 @@ input, select, textarea {
 		button:disabled,
 		.button.disabled,
 		.button:disabled {
-			pointer-events: none;
 			opacity: 0.35;
 		}
 
@@ -1372,7 +1371,6 @@ input, select, textarea {
 	}
 
 		#wrapper:after {
-			pointer-events: none;
 			-moz-transition: opacity 0.5s ease, visibility 0.5s;
 			-webkit-transition: opacity 0.5s ease, visibility 0.5s;
 			-ms-transition: opacity 0.5s ease, visibility 0.5s;
@@ -1413,7 +1411,6 @@ input, select, textarea {
 			-webkit-animation: spinner 1s infinite linear !important;
 			-ms-animation: spinner 1s infinite linear !important;
 			animation: spinner 1s infinite linear !important;
-			pointer-events: none;
 			-moz-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			-webkit-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			-ms-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
@@ -1620,7 +1617,6 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: -ms-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
-				pointer-events: none;
 				background-size: cover;
 				content: '';
 				display: block;
@@ -1645,7 +1641,6 @@ input, select, textarea {
 			}
 
 			#main .thumb > h2 {
-				pointer-events: none;
 				bottom: 1.875em;
 				font-size: 0.8em;
 				left: 2.1875em;
@@ -1659,7 +1654,6 @@ input, select, textarea {
 			}
 
 		#main:after {
-			pointer-events: none;
 			-moz-transition: opacity 0.5s ease, visibility 0.5s;
 			-webkit-transition: opacity 0.5s ease, visibility 0.5s;
 			-ms-transition: opacity 0.5s ease, visibility 0.5s;
@@ -1695,7 +1689,6 @@ input, select, textarea {
 			}
 
 		body.is-preload #main .thumb {
-			pointer-events: none;
 			opacity: 0;
 		}
 
