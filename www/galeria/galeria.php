@@ -71,7 +71,7 @@ include "config.php";
 
 				        $filas = mysqli_query($cnx, $consulta);
 								while( $columna = mysqli_fetch_assoc( $filas )){
-									echo '<div class="col-4"><span class="image fit"><img src="images/'.$columna['ARCHIVO'].'" alt="'.$columna['NOMBRE'].'" /></span></div>';
+									echo '<div class="col-4"><span class="image fit"><a href="fotos/'.$columna['ARCHIVO'].'"><img src="images/'.$columna['ARCHIVO'].'" alt="'.$columna['NOMBRE'].'" /></a></span></div>';
 								}
 								echo "</div>";
 								echo "</div>";

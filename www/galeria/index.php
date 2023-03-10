@@ -75,7 +75,7 @@ include "config.php";
 			echo '<div class="content">';
 			echo '<h3>'.$columna['TITULO'].'</h3>';
 			echo '<p>'.nl2br($columna['DESCRIPCION']).'</p>';
-			echo '<a href="multiverse/index.php?gal='.$id.'" class="button primary fit small">Visitar Galeria</a></li>';
+			echo '<a href="galeria.php?gal='.$id.'" class="button primary fit small">Visitar Galeria</a></li>';
 			echo '</div>';
 			echo '</section>';
 			// code...
