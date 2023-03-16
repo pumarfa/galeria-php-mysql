@@ -11,9 +11,9 @@ vendor/
 # Token para actualizar GitHub
 TokenGitHub.txt
 # Imagenes en pruebas
-www/fotos/*.jpg
-www/fotos/*.png
-www/fotos/*.gif
-www/images/*.jpg
-www/images/*.png
-www/images/*.gif
+www/galeria/fotos/*.jpg
+www/galeria/fotos/*.png
+www/galeria/fotos/*.gif
+www/galeria/images/*.jpg
+www/galeria/images/*.png
+www/galeria/images/*.gif
