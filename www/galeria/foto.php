@@ -28,7 +28,7 @@ include "config.php";
 						<li><a href="#one" class="button icon solid fa-chevron-down scrolly">Galerias</a></li>
 					</ul>
 				</div>
-				<div class="image phone"><div class="inner"><img src="images/logo_unam_vertical.png" alt="" /></div></div>
+				<div class="image phone"><div class="inner"><img src="img/logo_unam_vertical.png" alt="" /></div></div>
 			</header>
 
 		<!-- One -->
