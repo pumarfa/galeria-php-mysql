@@ -55,9 +55,9 @@ include "config.php";
 					<section>
 						<?php
 						if ( isset( $_GET['fotoid'] )){
-				    //Consulta de una galeria especíaifa
-				        $id = $_GET['fotoid'];
-
+				                //Consulta de una galeria especíaifa
+				                $id = $_GET['fotoid'];
+                                                $galeria_id = $_GET['galeriaid'];
 								$consulta ="SELECT IDFOTO, NOMBRE, DESCRIPCION, ARCHIVO, POSICION, DATE_FORMAT (FECHA_ALTA, '%d/ %m/ %Y - %H:%i') as FECHA_ALTA, ESTADO FROM fotos WHERE IDFOTO='$id' AND ESTADO= 1 LIMIT 1";
 
 				        $filas = mysqli_query($cnx, $consulta);
@@ -74,7 +74,7 @@ include "config.php";
 							}
 						?>
 					</section>
-					<a href="index.php#one" class="button primary">Galerias</a>
+                                        <a href="galeria.php?gal=<?echo $galeria_id ?>#one" class="button primary">Galerias</a>
 				</div>
 			</section>
 
