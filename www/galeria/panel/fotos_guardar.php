@@ -60,5 +60,5 @@ foreach( $_POST['nombre'] as $indice=>$nombre){
     }
 }
 
-header("Location: fotos_galeria.php?id=$fkgaleria");
+header("Location: fotos_galeria.php?id=$fkgaleria#one");
 ?>

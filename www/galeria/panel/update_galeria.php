@@ -20,5 +20,5 @@ SQL;
 
 mysqli_query($cnx, $consulta);
 
-header("Location: index.php");
+header("Location: index.php#one");
 ?>

@@ -38,8 +38,8 @@ include "config.php";
 					cincuenta años de historia</h2>
 				</header>
 				<ul class="icons major">
-					<li><a href="panel/nueva_galeria.php"><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></a></li>
-					<li><a href="index.php"><span class="icon solid fa-sync"><span class="label">Process</span></span></a></li>
+					<li><a href="panel/nueva_galeria.php#one"><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></a></li>
+					<li><a href="index.php#one"><span class="icon solid fa-sync"><span class="label">Process</span></span></a></li>
 					<li><a href="index.php"><span class="icon solid fa-cloud"><span class="label">Upload</span></span></a></li>
 				</ul>
 			</section>
@@ -74,7 +74,7 @@ include "config.php";
 							}
 						?>
 					</section>
-					<a href="index.php" class="button primary">Galerias</a>
+					<a href="index.php#one" class="button primary">Galerias</a>
 				</div>
 			</section>
 

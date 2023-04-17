@@ -33,5 +33,5 @@ foreach( $_POST['posicion'] as $numero=>$idfoto ){
 
 }
 
-header("Location: fotos_galeria.php?id=$idgaleria");
+header("Location: fotos_galeria.php?id=$idgaleria#one");
 ?>

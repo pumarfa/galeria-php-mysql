@@ -30,6 +30,6 @@ if ( isset($_GET['id'])){
     $mesage = "La Galeria contiene imágenes. Debe eliminarlas primero";
   }
 }
-header("Location: index.php?mesage=".$mesage);
+header("Location: index.php?mesage=".$mesage."#one");
 
 ?>

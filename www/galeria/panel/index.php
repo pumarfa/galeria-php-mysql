@@ -49,8 +49,8 @@ $filas = mysqli_query($cnx, $consulta);
     					cincuenta años de historia</h2>
     				</header>
     				<ul class="icons major">
-    					<li><a href="nueva_galeria.php"><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></a></li>
-    					<li><a href="index.php"><span class="icon solid fa-sync"><span class="label">Process</span></span></a></li>
+    					<li><a href="nueva_galeria.php#one"><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></a></li>
+    					<li><a href="index.php#one"><span class="icon solid fa-sync"><span class="label">Process</span></span></a></li>
     					<li><a href="../index.php"><span class="icon solid fa-cloud"><span class="label">Upload</span></span></a></li>
     				</ul>
     			</section>
@@ -83,7 +83,7 @@ $filas = mysqli_query($cnx, $consulta);
               		    echo "<td>$columna[TITULO]</td>";
               		    echo "<td>$columna[DESCRIPCION]</td>";
               		    echo "<td>$columna[FECHA_ALTA]</td>";
-              		    echo "<td> <a href='editar_galeria.php?id=$columna[IDGALERIA]'>Editar </a>| <a href='borrar_galeria.php?id=$columna[IDGALERIA]'>Borrar</a> |<a href='fotos_galeria.php?id=$columna[IDGALERIA]'> Fotos</a> </td>";
+              		    echo "<td> <a href='editar_galeria.php?id=$columna[IDGALERIA]#one'>Editar </a>| <a href='borrar_galeria.php?id=$columna[IDGALERIA]'>Borrar</a> |<a href='fotos_galeria.php?id=$columna[IDGALERIA]#one'> Fotos</a> </td>";
               		    echo "</tr>";
               		}
               		?>
@@ -91,7 +91,7 @@ $filas = mysqli_query($cnx, $consulta);
               </table>
             </div>
           </section>
-          <a href="nueva_galeria.php" class="button primary small">Nueva Galeria</a>
+          <a href="nueva_galeria.php#one" class="button primary small">Nueva Galeria</a>
           <!-- FIN Contenidos aquí -->
         </div>
       </section>
