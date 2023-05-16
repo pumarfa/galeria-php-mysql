@@ -78,7 +78,7 @@ $filas = mysqli_query($cnx, $consulta);
             	while( $columna = mysqli_fetch_assoc( $filas )){
             	    $cantidad++;
                   echo '<section class="spotlight">';
-            			echo '<div class="image"><img src="../images/'.$columna['ARCHIVO'].'" alt="'.$columna['NOMBRE'].'" /></div>';
+            			echo '<div class="image"><a href="fotos_galeria_edit.php?id='.$idgaleria. '&idfoto='.$columna['IDFOTO'].'#one"><img src="../images/'.$columna['ARCHIVO'].'" alt="'.$columna['NOMBRE'].'" /></a></div>';
             			echo '<div class="content">';
             			echo '<h3>'.$columna['NOMBRE'].'</h3>';
             			echo '<p>'.nl2br($columna['DESCRIPCION']).'</p>';
